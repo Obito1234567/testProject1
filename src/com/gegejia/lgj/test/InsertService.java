@@ -18,7 +18,7 @@ public class InsertService {
         timer.schedule(new TimerTask() {
             @Override
             public void run() {
-
+                System.out.println(new Date());
             }
         }, rand, 6000);
     }
