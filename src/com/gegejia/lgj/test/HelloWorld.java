@@ -22,5 +22,9 @@ public class HelloWorld {
         System.out.println((byte)CommonEnum.ORDER_STATUS.NOT_DELIVERY.getValue());
         TestHeader hd = new TestHeader();
         System.out.println(hd.getA() + ", b: " + hd.getB());
+        int min = 5;
+        int max = 15;
+        int rand = min + (int) (Math.random() * (max - min));
+        System.out.println(rand);
     }
 }
